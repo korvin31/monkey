@@ -7,6 +7,8 @@ let firstsEl = 4;
 let quantity = 72;
 let sum = 0;
 
+console.log('change')
+
 for (let i=1; i<=11; i++) {
     console.log(firstsEl * Math.pow(denominator, i - 1));
     sum += firstsEl * Math.pow(denominator, i - 1)
